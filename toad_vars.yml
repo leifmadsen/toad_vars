@@ -1,0 +1,8 @@
+jenkins_master_server_name: jenkins.toad.tld
+elk_deployed: false
+filebeat_deployed: false
+use_openstack_deploy: false
+deploy_type: 'docker'
+jenkins_job_builder_git_jobs_src: "https://github.com/leifmadsen/jenkins-jobs.git"
+jenkins_job_builder_git_jobs_version: "lab/home"
+jenkins_job_baremetal_env_git_src: "https://github.com/leifmadsen/toad_envs.git"
